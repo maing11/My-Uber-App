@@ -1,0 +1,6 @@
+framework module Pods_MyUBER {
+  umbrella header "Pods-MyUBER-umbrella.h"
+
+  export *
+  module * { export * }
+}
