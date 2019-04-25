@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
      
         containerVC = ContainerVC()
-        window?.rootViewController
+        window?.rootViewController = containerVC
         FirebaseApp.configure()
         return true
     }

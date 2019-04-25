@@ -13,7 +13,7 @@
 		33058ABF226D8DA5007E17F7 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33058ABE226D8DA5007E17F7 /* RoundedShadowButton.swift */; };
 		33058AD12271B372007E17F7 /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33058AD02271B372007E17F7 /* LeftSidePanelVC.swift */; };
 		33058AD32271B3DE007E17F7 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33058AD22271B3DE007E17F7 /* ContainerVC.swift */; };
-		33058AD82271B6D6007E17F7 /* CenterVCDelegate.Swift in Sources */ = {isa = PBXBuildFile; fileRef = 33058AD72271B6D6007E17F7 /* CenterVCDelegate.Swift */; };
+		33058AD82271B6D6007E17F7 /* CenterVCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33058AD72271B6D6007E17F7 /* CenterVCDelegate.swift */; };
 		335881E8226C697C00FFC9DF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335881E7226C697C00FFC9DF /* GradientView.swift */; };
 		33DC5AF52265CDC400491D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DC5AF42265CDC400491D19 /* AppDelegate.swift */; };
 		33DC5AF72265CDC400491D19 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DC5AF62265CDC400491D19 /* HomeVC.swift */; };
@@ -33,7 +33,7 @@
 		33058ABE226D8DA5007E17F7 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
 		33058AD02271B372007E17F7 /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
 		33058AD22271B3DE007E17F7 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
-		33058AD72271B6D6007E17F7 /* CenterVCDelegate.Swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.Swift; sourceTree = "<group>"; };
+		33058AD72271B6D6007E17F7 /* CenterVCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.swift; sourceTree = "<group>"; };
 		335881E7226C697C00FFC9DF /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		33DC5AF12265CDC400491D19 /* MyUBER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUBER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DC5AF42265CDC400491D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		33058AD42271B650007E17F7 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				33058AD72271B6D6007E17F7 /* CenterVCDelegate.Swift */,
+				33058AD72271B6D6007E17F7 /* CenterVCDelegate.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33058AD82271B6D6007E17F7 /* CenterVCDelegate.Swift in Sources */,
+				33058AD82271B6D6007E17F7 /* CenterVCDelegate.swift in Sources */,
 				33058ABF226D8DA5007E17F7 /* RoundedShadowButton.swift in Sources */,
 				33058AD12271B372007E17F7 /* LeftSidePanelVC.swift in Sources */,
 				33058ABD226D4198007E17F7 /* CircleView.swift in Sources */,
@@ -432,6 +432,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maiapp.MyUBER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ENABLE_BATCH_MODE = NO;
@@ -451,6 +452,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maiapp.MyUBER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ENABLE_BATCH_MODE = NO;

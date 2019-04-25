@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol centerVCDelegate {
+protocol CenterVCDelegate {
     func toggleLeftPanel()
     func addLeftPanelViewController()
     func animateLeftPanel(shouldExpand: Bool)

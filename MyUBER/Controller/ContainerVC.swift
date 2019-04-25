@@ -78,7 +78,7 @@ class ContainerVC: UIViewController {
     }
 }
 
-extension ContainerVC: centerVCDelegate {
+extension ContainerVC: CenterVCDelegate {
     func toggleLeftPanel() {
         let notAlreadyExpanded = (currentState != .leftPanelExpanded)
         

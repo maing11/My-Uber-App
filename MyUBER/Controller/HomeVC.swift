@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 
 class HomeVC: UIViewController, MKMapViewDelegate {
-    var delegate: centerVCDelegate?
+    var delegate: CenterVCDelegate?
 
     @IBOutlet weak var mapView: MKMapView!
     
