@@ -11,9 +11,12 @@
 		33058ABB226D38AA007E17F7 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33058ABA226D38AA007E17F7 /* RoundedShadowView.swift */; };
 		33058ABD226D4198007E17F7 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33058ABC226D4198007E17F7 /* CircleView.swift */; };
 		33058ABF226D8DA5007E17F7 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33058ABE226D8DA5007E17F7 /* RoundedShadowButton.swift */; };
+		33058AD12271B372007E17F7 /* LeftSidePanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33058AD02271B372007E17F7 /* LeftSidePanelVC.swift */; };
+		33058AD32271B3DE007E17F7 /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33058AD22271B3DE007E17F7 /* ContainerVC.swift */; };
+		33058AD82271B6D6007E17F7 /* CenterVCDelegate.Swift in Sources */ = {isa = PBXBuildFile; fileRef = 33058AD72271B6D6007E17F7 /* CenterVCDelegate.Swift */; };
 		335881E8226C697C00FFC9DF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335881E7226C697C00FFC9DF /* GradientView.swift */; };
 		33DC5AF52265CDC400491D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DC5AF42265CDC400491D19 /* AppDelegate.swift */; };
-		33DC5AF72265CDC400491D19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DC5AF62265CDC400491D19 /* ViewController.swift */; };
+		33DC5AF72265CDC400491D19 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DC5AF62265CDC400491D19 /* HomeVC.swift */; };
 		33DC5AFA2265CDC400491D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DC5AF82265CDC400491D19 /* Main.storyboard */; };
 		33DC5AFC2265CDC500491D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DC5AFB2265CDC500491D19 /* Assets.xcassets */; };
 		33DC5AFF2265CDC500491D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DC5AFD2265CDC500491D19 /* LaunchScreen.storyboard */; };
@@ -28,10 +31,13 @@
 		33058ABA226D38AA007E17F7 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		33058ABC226D4198007E17F7 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		33058ABE226D8DA5007E17F7 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		33058AD02271B372007E17F7 /* LeftSidePanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSidePanelVC.swift; sourceTree = "<group>"; };
+		33058AD22271B3DE007E17F7 /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		33058AD72271B6D6007E17F7 /* CenterVCDelegate.Swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterVCDelegate.Swift; sourceTree = "<group>"; };
 		335881E7226C697C00FFC9DF /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		33DC5AF12265CDC400491D19 /* MyUBER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUBER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DC5AF42265CDC400491D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33DC5AF62265CDC400491D19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33DC5AF62265CDC400491D19 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		33DC5AF92265CDC400491D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33DC5AFB2265CDC500491D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33DC5AFE2265CDC500491D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,11 +75,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		335881E3226C68D300FFC9DF /* Controller */ = {
+		33058ACF2271B30D007E17F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33DC5AF62265CDC400491D19 /* HomeVC.swift */,
+				33058AD02271B372007E17F7 /* LeftSidePanelVC.swift */,
+				33058AD22271B3DE007E17F7 /* ContainerVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33058AD42271B650007E17F7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				33058AD72271B6D6007E17F7 /* CenterVCDelegate.Swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		33058AD62271B68C007E17F7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Controller;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		335881E5226C68FC00FFC9DF /* View */ = {
@@ -86,13 +110,6 @@
 				33058ABE226D8DA5007E17F7 /* RoundedShadowButton.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		335881E6226C690500FFC9DF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		33DC5AE82265CDC400491D19 = {
@@ -116,11 +133,11 @@
 		33DC5AF32265CDC400491D19 /* MyUBER */ = {
 			isa = PBXGroup;
 			children = (
-				335881E6226C690500FFC9DF /* Model */,
+				33058AD42271B650007E17F7 /* Protocols */,
+				33058AD62271B68C007E17F7 /* Model */,
 				335881E5226C68FC00FFC9DF /* View */,
-				335881E3226C68D300FFC9DF /* Controller */,
+				33058ACF2271B30D007E17F7 /* Controller */,
 				33DC5B062265CE0E00491D19 /* GoogleService-Info.plist */,
-				33DC5AF62265CDC400491D19 /* ViewController.swift */,
 				33DC5AF42265CDC400491D19 /* AppDelegate.swift */,
 				33DC5AF82265CDC400491D19 /* Main.storyboard */,
 				33DC5AFB2265CDC500491D19 /* Assets.xcassets */,
@@ -253,9 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33058AD82271B6D6007E17F7 /* CenterVCDelegate.Swift in Sources */,
 				33058ABF226D8DA5007E17F7 /* RoundedShadowButton.swift in Sources */,
+				33058AD12271B372007E17F7 /* LeftSidePanelVC.swift in Sources */,
 				33058ABD226D4198007E17F7 /* CircleView.swift in Sources */,
-				33DC5AF72265CDC400491D19 /* ViewController.swift in Sources */,
+				33058AD32271B3DE007E17F7 /* ContainerVC.swift in Sources */,
+				33DC5AF72265CDC400491D19 /* HomeVC.swift in Sources */,
 				33058AB9226D3572007E17F7 /* RoundImageView.swift in Sources */,
 				33058ABB226D38AA007E17F7 /* RoundedShadowView.swift in Sources */,
 				33DC5AF52265CDC400491D19 /* AppDelegate.swift in Sources */,
@@ -414,6 +434,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.maiapp.MyUBER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -432,6 +453,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.maiapp.MyUBER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
