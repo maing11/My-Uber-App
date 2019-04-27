@@ -17,6 +17,7 @@
 		335881E8226C697C00FFC9DF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335881E7226C697C00FFC9DF /* GradientView.swift */; };
 		33B8CED622724D18000D174D /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8CED522724D18000D174D /* UIViewExt.swift */; };
 		33B8CED8227274B2000D174D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8CED7227274B2000D174D /* LoginVC.swift */; };
+		33B8CEDC2273A21C000D174D /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B8CEDB2273A21C000D174D /* RoundedCornerTextField.swift */; };
 		33DC5AF52265CDC400491D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DC5AF42265CDC400491D19 /* AppDelegate.swift */; };
 		33DC5AF72265CDC400491D19 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DC5AF62265CDC400491D19 /* HomeVC.swift */; };
 		33DC5AFA2265CDC400491D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DC5AF82265CDC400491D19 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		335881E7226C697C00FFC9DF /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		33B8CED522724D18000D174D /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		33B8CED7227274B2000D174D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		33B8CEDB2273A21C000D174D /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
 		33DC5AF12265CDC400491D19 /* MyUBER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUBER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33DC5AF42265CDC400491D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33DC5AF62265CDC400491D19 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				33058ABA226D38AA007E17F7 /* RoundedShadowView.swift */,
 				33058ABC226D4198007E17F7 /* CircleView.swift */,
 				33058ABE226D8DA5007E17F7 /* RoundedShadowButton.swift */,
+				33B8CEDB2273A21C000D174D /* RoundedCornerTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				33DC5AF72265CDC400491D19 /* HomeVC.swift in Sources */,
 				33058AB9226D3572007E17F7 /* RoundImageView.swift in Sources */,
 				33058ABB226D38AA007E17F7 /* RoundedShadowView.swift in Sources */,
+				33B8CEDC2273A21C000D174D /* RoundedCornerTextField.swift in Sources */,
 				33DC5AF52265CDC400491D19 /* AppDelegate.swift in Sources */,
 				335881E8226C697C00FFC9DF /* GradientView.swift in Sources */,
 			);
@@ -443,7 +447,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8K5LFSE6P;
 				INFOPLIST_FILE = MyUBER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +469,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8K5LFSE6P;
 				INFOPLIST_FILE = MyUBER/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
