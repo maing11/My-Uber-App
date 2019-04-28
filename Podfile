@@ -7,7 +7,8 @@ target 'MyUBER' do
 
   # Pods for MyUBER
 pod 'Firebase/Core'
-
-
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'RevealingSplashView'
 
 end
